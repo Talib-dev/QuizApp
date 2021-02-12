@@ -1,5 +1,10 @@
 package com.quizapp
-object Constent{
+public object Constent{
+
+    public const val USER_NAME: String = "user_name"
+    public const val TOTAL_QUESTIONS: String = "total_questions"
+    public const val CORRECT_ANSWERS: String = "correct_answers"
+
     fun getQuestions(): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
 
